@@ -1,0 +1,194 @@
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	overflow-x: hidden;
+}
+
+.bg_img{
+	background-image: url(http://cream.inspirydemos.com/wp-content/uploads/2014/10/slide-2-flex.jpg);
+	object-fit: cover;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	height: 660px;
+	width: 100%;
+}
+.nav{
+			width: 100%;
+			height: 70px;
+			position: sticky;
+			top: 0px;
+
+			background-color: #C74F57;
+			
+		}
+.header_set{
+	padding: 250px;
+	box-sizing: border-box;
+}
+.navbar ul li a{
+	font-size: 20px;
+
+}
+.navbar ul li a:hover{
+	background-color:#000;
+}
+
+ h2{
+	font-size: 37px;
+	font-family: 'Pacifico', cursive;
+}
+h3{
+	font-size: 37px;
+	font-family: 'Pacifico', cursive;
+
+}
+.main_div{
+	background-color: #66D9C1;
+	flex-direction: column;
+	overflow: hidden;
+}
+.main_div h1{
+	font-family: 'Pacifico', cursive;
+}
+.upper_svg{
+	background-color: #66D9C1;
+
+}
+.box {
+  /*background: #2db34a;*/
+  /*transition: all 0.7s ease-out;*/
+/*transform: scale(0.6);*/
+  /*transition-property: background;
+  transition-duration: 1s;
+  transition-timing-function: linear;*/
+}
+.box:hover {
+  background: skyblue;
+  transition: all 0.7s ease-out;
+  border-radius: 14px solid;
+  transform: translateY(-15px);
+   transition: transform .3s;
+
+}
+.box_1:hover{
+	background-image: linear-gradient(#33ccff,#ff99cc);
+    transition: all 0.7s ease-out;
+     border-radius: 14px solid;
+     transform: translateY(-15px);
+   transition: transform .3s;
+}
+.box_2:hover{
+	 background-image: linear-gradient(#ff99cc,#33ccff);
+     transition: all 0.7s ease-out;
+     border-radius: 14px solid;
+     transform: translateX(-15px);
+     transition: transform .3s;
+}
+
+ h2{
+	font-size: 37px;
+	font-family: 'Pacifico', cursive;
+}
+h3{
+	font-size: 37px;
+	font-family: 'Pacifico', cursive;
+
+}
+.div{
+	height: 80px;
+	width: 100%;
+	padding: 70px;
+	background-color: #FAF8F4;
+	border: 5px solid;
+}
+.div h3{
+	font-size: 50px;
+}
+.main_div_2{
+	background-color:#F9CA67;
+	flex-direction: column;
+	overflow: hidden;
+
+}
+.main_div_2 img:hover{
+	border-radius: 20px;
+	transition: all 0.7s ease-out;
+     border-radius: 14px solid;
+     transform: translateY(-15px);
+   transition: transform .3s;	
+}
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  /*background-color: #bbb;*/
+    background-image: linear-gradient(#355C7D,#6C5B7B,#C06C84);
+  color: black;
+
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-image: linear-gradient(#23074d,#cc5333) ;
+  color: white;
+  transform: rotateY(180deg);
+}
+/*h4{
+     font-family: 'Roboto Mono', monospace;
+}*/
+.design{
+	 background-image: linear-gradient(to bottom right, skyblue, #F78);
+}
+.card_pink{
+	height: 450px;
+}
+/*/////////drop downs/////*/
+nav ul li ul{
+			position: absolute;
+			/*background-image: linear-gradient(pink,blue);*/
+			background-color: #2C2725;
+			color: black;
+			width: 150px;
+			display: none;
+			padding:10px;
+		}
+		nav ul li:hover ul{
+			display: block;
+		}
+		
+		nav ul li ul li a{
+			transition:0.5s;
+			
+		}
+		nav ul li a:hover{
+			/*padding-bottom: 20px;*/
+			background-color: grey;
+		
+			background-color: #000;
+			color:pink;
+		}
+
+
+
+
+
+
