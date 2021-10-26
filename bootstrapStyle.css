@@ -85,6 +85,41 @@ h3{
      transform: translateX(-15px);
      transition: transform .3s;
 }
+.box_3:hover{
+	 background-image: linear-gradient(#ff99cc,#33ccff);
+     transition: all 0.7s ease-out;
+     border-radius: 14px solid;
+     transform: translateX(-15px);
+     transition: transform .3s;
+}
+.box_4:hover{
+	 background-image: linear-gradient(#ff99cc,#33ccff);
+     transition: all 0.7s ease-out;
+     border-radius: 14px solid;
+     transform: translateX(-15px);
+     transition: transform .3s;
+}
+.box_5:hover{
+	 background-image: linear-gradient(#ff99cc,#33ccff);
+     transition: all 0.7s ease-out;
+     border-radius: 14px solid;
+     transform: translateX(-15px);
+     transition: transform .3s;
+}
+.box_6:hover{
+	 background-image: linear-gradient(#ff99cc,#33ccff);
+     transition: all 0.7s ease-out;
+     border-radius: 14px solid;
+     transform: translateX(-15px);
+     transition: transform .3s;
+}
+.box_7:hover{
+	 background-image: linear-gradient(#ff99cc,#33ccff);
+     transition: all 0.7s ease-out;
+     border-radius: 14px solid;
+     transform: translateX(-15px);
+     transition: transform .3s;
+}
 
  h2{
 	font-size: 37px;
